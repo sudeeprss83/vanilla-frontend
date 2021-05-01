@@ -2,7 +2,7 @@ const tableBody = document.getElementById("contact-us-data");
 const back = document.getElementById("back");
 
 back.addEventListener("click", (e) => {
-  location.href = "http://35.154.88.197:8000/frontend/contact-us.html";
+  location.href = "http://35.154.88.197:8000/contact-us.html";
 });
 
 const url = "http://localhost:3000/feedbacks";

@@ -5,7 +5,7 @@ const source = document.getElementById("alert-user");
 const queries = document.getElementById("queries");
 
 queries.addEventListener("click", (e) => {
-  location.href = "http://35.154.88.197:8000/frontend/feedback.html";
+  location.href = "http://35.154.88.197:8000/feedback.html";
 });
 
 type.addEventListener("change", (e) => {
