@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #FCF8F7;
+        }
+    </style>
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="alert-user"></div>
+        <br><br>
+        <form class="text-center border border-light p-5">
+            <p class="h4 mb-4">Contact us</p>
+            <input type="text" id="name" class="form-control mb-4" placeholder="Name">
+            <input type="email" id="email" class="form-control mb-4" placeholder="E-mail">
+            <select  class="browser-default custom-select mb-4" id="dropdown">
+                <option value="Feedback" selected>Feedback</option>
+                <option value="Bug">Report a bug</option>
+            </select>
+            <div class="form-group">
+                <textarea class="form-control rounded-0" id="message" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button id="send" class="btn btn-info btn-block" type="button">Send</button>
+            <br>
+            <button id="queries" class="btn btn-dark btn-block" type="button" >Get Queries</button>
+        </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="./js/contact-us.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
