@@ -5,7 +5,7 @@ const source = document.getElementById("alert-user");
 const queries = document.getElementById("queries");
 
 queries.addEventListener("click", (e) => {
-  location.href = "http://35.154.88.197:8000/feedback.html";
+  location.href = "http://localhost:5501/frontend/feedback.html";
 });
 
 type.addEventListener("change", (e) => {
@@ -26,7 +26,7 @@ send.addEventListener("click", (e) => {
     }, 2000);
     return
   }
-  const url = "http://localhost:3000/feedbacks";
+  const url = "http://localhost:5500/feedbacks";
   fetch(url, {
     method: "POST",
     body: JSON.stringify({
